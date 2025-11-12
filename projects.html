@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects - View my portfolio of web development projects">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">Portfolio</a>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link active">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="skills.html" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p class="page-subtitle">A showcase of my work</p>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <!-- Project Carousel -->
+                <div class="project-carousel">
+                    <button class="carousel-btn carousel-btn-prev" aria-label="Previous project">
+                        &#8249;
+                    </button>
+                    <div class="carousel-container">
+                        <div class="carousel-track">
+                            <!-- Project 1 -->
+                            <div class="project-slide active">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="image-placeholder project-img" role="img" aria-label="E-Commerce Website screenshot">
+                                            <p>Project 1 Screenshot</p>
+                                        </div>
+                                    </div>
+                                    <div class="project-content">
+                                        <h2>E-Commerce Website</h2>
+                                        <p class="project-tech">HTML, CSS, JavaScript, React</p>
+                                        <p class="project-description">A fully responsive e-commerce website with shopping cart functionality, product filtering, and user authentication. Features include dynamic product listings, search functionality, and secure checkout process.</p>
+                                        <div class="project-links">
+                                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 2 -->
+                            <div class="project-slide">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="image-placeholder project-img" role="img" aria-label="Task Management App screenshot">
+                                            <p>Project 2 Screenshot</p>
+                                        </div>
+                                    </div>
+                                    <div class="project-content">
+                                        <h2>Task Management App</h2>
+                                        <p class="project-tech">HTML, CSS, JavaScript, Node.js, MongoDB</p>
+                                        <p class="project-description">A collaborative task management application that allows users to create, assign, and track tasks. Features include real-time updates, task prioritization, deadline reminders, and team collaboration tools.</p>
+                                        <div class="project-links">
+                                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 3 -->
+                            <div class="project-slide">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="image-placeholder project-img" role="img" aria-label="Weather Dashboard screenshot">
+                                            <p>Project 3 Screenshot</p>
+                                        </div>
+                                    </div>
+                                    <div class="project-content">
+                                        <h2>Weather Dashboard</h2>
+                                        <p class="project-tech">HTML, CSS, JavaScript, API Integration</p>
+                                        <p class="project-description">An interactive weather dashboard that displays current weather conditions and forecasts for multiple locations. Features include location search, weather maps, hourly and weekly forecasts, and weather alerts.</p>
+                                        <div class="project-links">
+                                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn carousel-btn-next" aria-label="Next project">
+                        &#8250;
+                    </button>
+                </div>
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button class="indicator active" aria-label="Go to project 1" data-slide="0"></button>
+                    <button class="indicator" aria-label="Go to project 2" data-slide="1"></button>
+                    <button class="indicator" aria-label="Go to project 3" data-slide="2"></button>
+                </div>
+
+                <!-- Additional Projects Grid -->
+                <div class="projects-grid">
+                    <div class="project-mini-card">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive portfolio website showcasing projects and skills</p>
+                        <span class="project-tag">HTML/CSS/JS</span>
+                    </div>
+                    <div class="project-mini-card">
+                        <h3>Blog Platform</h3>
+                        <p>Content management system for blogging with rich text editor</p>
+                        <span class="project-tag">React/Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
